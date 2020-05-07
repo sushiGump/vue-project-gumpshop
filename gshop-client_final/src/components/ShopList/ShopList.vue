@@ -57,7 +57,7 @@
     data () {
       return {
         // baseImgUrl: 'http://cangdu.org:8001/img/'
-        baseImgUrl: 'https://github.com/sushiGump/images.git'
+        baseImgUrl: 'https://raw.githubusercontent.com/sushiGump/vue-project-gumpshop/master/images/'
         
       }
     },
