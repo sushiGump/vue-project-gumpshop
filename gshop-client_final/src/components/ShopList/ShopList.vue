@@ -42,7 +42,7 @@
       </li>
     </ul>
     <ul v-else>
-      <li v-for="item in 6">
+      <li v-for="item in 6" :key={item}>
         <img src="./images/shop_back.svg" alt="back">
       </li>
     </ul>
@@ -56,7 +56,9 @@
   export default {
     data () {
       return {
-        baseImgUrl: 'http://cangdu.org:8001/img/'
+        // baseImgUrl: 'http://cangdu.org:8001/img/'
+        baseImgUrl: 'https://github.com/sushiGump/images.git'
+        
       }
     },
     computed: {
